@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35205F4A29C745A900C61FF4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 35205F4929C745A900C61FF4 /* main.c */; };
+		35205F5929CA451500C61FF4 /* coloring.c in Sources */ = {isa = PBXBuildFile; fileRef = 35205F5729C8FA2E00C61FF4 /* coloring.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,10 @@
 
 /* Begin PBXFileReference section */
 		35205F4629C745A900C61FF4 /* alghorith-analisation (college subjects) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "alghorith-analisation (college subjects)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35205F4929C745A900C61FF4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		35205F5029C8EFB800C61FF4 /* bananas.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bananas.c; sourceTree = "<group>"; };
+		35205F5329C8F7FB00C61FF4 /* hypercube.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hypercube.c; sourceTree = "<group>"; };
+		35205F5529C8F92200C61FF4 /* partitions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = partitions.c; sourceTree = "<group>"; };
+		35205F5729C8FA2E00C61FF4 /* coloring.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = coloring.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,10 @@
 		35205F4829C745A900C61FF4 /* alghorith-analisation (college subjects) */ = {
 			isa = PBXGroup;
 			children = (
-				35205F4929C745A900C61FF4 /* main.c */,
+				35205F5729C8FA2E00C61FF4 /* coloring.c */,
+				35205F5529C8F92200C61FF4 /* partitions.c */,
+				35205F5329C8F7FB00C61FF4 /* hypercube.c */,
+				35205F5029C8EFB800C61FF4 /* bananas.c */,
 			);
 			path = "alghorith-analisation (college subjects)";
 			sourceTree = "<group>";
@@ -119,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35205F4A29C745A900C61FF4 /* main.c in Sources */,
+				35205F5929CA451500C61FF4 /* coloring.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
